@@ -20,9 +20,9 @@ main {
 
 
 .step-box {
-  width: 300px;
-  margin-right: 30px;
-  padding: 10px;
+  width: 90%;
+  margin-right: 0px;
+  padding: 30px;
   position: relative;
   background-color: #eee;
 }
@@ -82,3 +82,7 @@ footer {
       width: 100%;
       display: block;
     }
+
+  .step-box {
+     width: 90%
+     diplay;flex;
