@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
+
 }
 
 header {
@@ -15,16 +15,16 @@ main {
   margin: 50px auto;
   display: flex;
   justify-content: center;
-  padding: 50px 0;
-  position: relative;
+  margin: 0 auto;
+  padding: 70px 0;
 }
 
 
 .step-box {
-  width: 90%;
-  margin-right: 0px;
-  padding: 30px;
-  border-bottom: 20px;
+  width: 300%;
+  margin-right: 30px;
+  margin: 0 auto;
+  padding: 10px;
   position: relative;
   display: inline-block;
   background-color: #eee;
@@ -74,17 +74,22 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-  
+
   .social {
       display:inline-block;
     }
 
-  
+
   main {
-      width: 100%;
+      width: 90%;
       display: block;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 50px 0;
+      position: relative;
     }
 
   .step-box {
      width: 90%
+     
   }
